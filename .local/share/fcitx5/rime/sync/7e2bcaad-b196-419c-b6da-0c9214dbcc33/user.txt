@@ -1,0 +1,778 @@
+# Rime table
+#@/db_name	user
+#@/db_type	tabledb
+#@/rime_version	1.7.3
+#@/tick	1116
+啊	a	1
+哎	ai	4
+俺	an	0
+俺当年	an dang nian	1
+按钮	an niu	1
+俺这	an zhe	1
+安装	an zhuang	6
+奥	ao	1
+吧	ba	2
+八嘎	ba ga	1
+百万	bai wan	1
+半	ban	2
+半年	ban nian	1
+半天	ban tian	1
+包装	bao zhuang	3
+背	bei	2
+被	bei	4
+倍的	bei de	1
+北理工	bei li gong	1
+壁纸	bi zhi	1
+变成	bian cheng	2
+编程	bian cheng	2
+边框	bian kuang	4
+变量	bian liang	1
+表	biao	0
+表车了	biao che le	1
+表现	biao xian	0
+表现优异	biao xian you yi	1
+别看了	bie kan le	1
+并	bing	2
+并且	bing qie	2
+不	bu	0
+不拆散	bu chai san	1
+不懂	bu dong	1
+部分	bu fen	1
+不跟手	bu gen shou	1
+不跟随	bu gen sui	1
+不好	bu hao	1
+不会	bu hui	1
+补考	bu kao	1
+补考了吗	bu kao le ma	1
+不老	bu lao	0
+不老多么	bu lao duo me	1
+不配	bu pei	0
+不配你	bu pei ni	1
+不然	bu ran	1
+不是	bu shi	4
+不使用	bu shi yong	2
+不要	bu yao	0
+不要搞	bu yao gao	1
+不足	bu zu	1
+才	cai	1
+参数	can shu	5
+藏若么	cang ruo me	1
+藏生	cang sheng	1
+操作	cao zuo	2
+测	ce	3
+侧边	ce bian	1
+测试	ce shi	5
+测试点	ce shi dian	1
+测试数据	ce shi shu ju	1
+测试一下	ce shi yi xia	4
+差不多	cha bu duo	1
+插件	cha jian	1
+拆散	chai san	0
+长	chang	1
+长度	chang du	1
+常见	chang jian	1
+车间	che jian	1
+车了	che le	0
+陈	chen	0
+陈一	chen yi	0
+陈一星	chen yi xing	5
+陈一行	chen yi xing	1
+成	cheng	1
+成功	cheng gong	3
+橙色	cheng se	1
+程序	cheng xu	1
+冲	chong	0
+冲一冲	chong yi chong	1
+处理器	chu li qi	1
+初始化	chu shi hua	1
+出租	chu zu	2
+串口	chuan kou	1
+传来	chuan lai	1
+创建	chuang jian	4
+窗口	chuang kou	0
+窗体	chuang ti	1
+从	cong	1
+从三月	cong san yue	1
+错误	cuo wu	2
+大	da	1
+打	da	1
+打不开	da bu kai	1
+大不了	da bu liao	0
+大不了了	da bu liao le	1
+大端	da duan	1
+打基础	da ji chu	1
+打了	da le	1
+达咩	da mie	1
+大数据	da shu ju	3
+大学	da xue	3
+打印机	da yin ji	1
+袋装	dai zhuang	1
+袋子	dai zi	1
+但	dan	0
+单位	dan wei	2
+但我感觉	dan wo gan jue	1
+当场	dang chang	1
+当年	dang nian	0
+挡住	dang zhu	3
+到	dao	5
+到期	dao qi	1
+到起了	dao qi le	1
+的	de	24
+得了	de le	0
+的人	de ren	1
+德州	de zhou	1
+扽	den	1
+登录	deng lu	1
+地	di	1
+地址	di zhi	1
+电话	dian hua	2
+吊	diao	0
+调用	diao yong	3
+订单	ding dan	2
+钉钉	ding ding	1
+定了	ding le	0
+懂得	dong de	2
+东西	dong xi	2
+动作	dong zuo	1
+都好	dou hao	0
+都好吊	dou hao diao	1
+都可以	dou ke yi	1
+都快	dou kuai	1
+都是	dou shi	1
+都行	dou xing	1
+段	duan	0
+端	duan	1
+端口	duan kou	1
+对	dui	0
+对方	dui fang	1
+对了	dui le	2
+队列	dui lie	0
+队列的	dui lie de	1
+对象	dui xiang	1
+对想得	dui xiang de	1
+堆栈	dui zhan	1
+多	duo	1
+夺标	duo biao	1
+多个	duo ge	1
+多么	duo me	0
+额	e	1
+嗯	en	1
+嗯啊	en a	1
+嗯嗯	en en	2
+嗯好	en hao	2
+恩幸	en xing	1
+而	er	2
+耳机	er ji	1
+二战	er zhan	1
+发布	fa bu	2
+发货	fa huo	2
+返回的	fan hui de	2
+翻译	fan yi	2
+放到	fang dao	1
+方法	fang fa	1
+房价	fang jia	1
+放假	fang jia	2
+方式	fang shi	1
+非常	fei chang	1
+肥料	fei liao	1
+费率	fei lv	1
+飞起来	fei qi lai	0
+分	fen	0
+分割	fen ge	1
+分类	fen lei	12
+分组	fen zu	1
+分祖名	fen zu ming	1
+风	feng	0
+风儿	feng er	0
+风格	feng ge	1
+封面	feng mian	3
+风面涂	feng mian tu	1
+锋面雨	feng mian yu	1
+封装	feng zhuang	1
+否	fou	1
+副标题	fu biao ti	1
+辐射	fu she	1
+富文本	fu wen ben	3
+服务	fu wu	5
+负责人	fu ze ren	3
+盖章	gai zhang	1
+感觉	gan jue	1
+刚	gang	0
+刚考完	gang kao wan	1
+搞	gao	0
+高铁	gao tie	1
+高性能	gao xing neng	6
+个	ge	1
+格式	ge shi	2
+给	gei	1
+根	gen	1
+跟	gen	1
+根据	gen ju	10
+跟手	gen shou	0
+工具	gong ju	1
+工具类	gong ju lei	1
+工作区	gong zuo qu	1
+构造	gou zao	2
+挂科	gua ke	1
+光标	guang biao	1
+规格	gui ge	3
+规格参数	gui ge can shu	1
+归宿	gui su	0
+滚动条	gun dong tiao	1
+哈哈	ha ha	2
+哈哈哈	ha ha ha	1
+还是	hai shi	1
+还有	hai you	1
+还在	hai zai	1
+含金量	han jin liang	2
+汉字	han zi	1
+号	hao	2
+好	hao	2
+好啊	hao a	1
+好冷	hao leng	1
+和	he	4
+很	hen	1
+后端	hou duan	2
+后面	hou mian	1
+护理学	hu li xue	1
+化肥	hua fei	3
+环境	huan jing	4
+汇编	hui bian	1
+回家	hui jia	1
+回了	hui le	0
+灰色	hui se	1
+回头	hui tou	0
+回头一想	hui tou yi xiang	1
+会议	hui yi	1
+会员	hui yuan	1
+货	huo	2
+获得	huo de	1
+活动	huo dong	3
+货品	huo pin	4
+获取	huo qu	7
+货物	huo wu	1
+或者	huo zhe	1
+记得	ji de	1
+积极	ji ji	0
+积极认证	ji ji ren zheng	1
+极客	ji ke	0
+极客时间	ji ke shi jian	1
+记录	ji lu	2
+济南	ji nan	1
+技术	ji shu	1
+计算机	ji suan ji	1
+几天	ji tian	1
+吉瓦	ji wa	0
+价格	jia ge	1
+假期	jia qi	4
+加速	jia su	0
+加速加速	jia su jia su	1
+加状态	jia zhuang tai	0
+见	jian	1
+简单	jian dan	2
+简略	jian lve	3
+奖	jiang	1
+教程	jiao cheng	1
+教室	jiao shi	1
+教师	jiao shi	1
+校验	jiao yan	1
+教资	jiao zi	1
+解读	jie du	1
+接口	jie kou	3
+界面	jie mian	2
+介入	jie ru	1
+接入	jie ru	1
+接受	jie shou	1
+截图	jie tu	1
+进厂	jin chang	1
+金珂垃	jin ke la	1
+今年	jin nian	1
+今天	jin tian	0
+今天睡	jin tian shui	1
+进行	jin xing	2
+禁止	jin zhi	2
+颈部	jing bu	1
+经典	jing dian	1
+精读	jing du	1
+静态	jing tai	1
+经追	jing zhui	1
+颈椎	jing zhui	1
+囧	jiong	0
+久	jiu	2
+就	jiu	1
+九八	jiu ba	0
+九八五	jiu ba wu	1
+旧的	jiu de	1
+就可以	jiu ke yi	1
+就是	jiu shi	1
+就行	jiu xing	0
+九月	jiu yue	1
+卡见	ka jian	1
+开	kai	3
+开发	kai fa	1
+开发的	kai fa de	1
+开启	kai qi	1
+开始	kai shi	1
+看似	kan si	1
+看一下	kan yi xia	1
+靠	kao	0
+拷贝	kao bei	1
+考不上	kao bu shang	1
+考出来	kao chu lai	1
+考得	kao de	1
+考完	kao wan	1
+考完试	kao wan shi	1
+考研	kao yan	1
+考验	kao yan	1
+可	ke	0
+课本上	ke ben shang	1
+克隆	ke long	1
+科目	ke mu	1
+科三	ke san	1
+可拖动	ke tuo dong	1
+可以	ke yi	2
+孔尼	kong ni	0
+孔尼吉瓦	kong ni ji wa	1
+口	kou	1
+跨站	kua zhan	0
+跨站月	kua zhan yue	1
+快捷键	kuai jie jian	2
+狂风	kuang feng	0
+狂风囧定了	kuang feng jiong ding le	1
+蓝牙	lan ya	1
+老旧	lao jiu	2
+老师	lao shi	2
+了	le	8
+了吗	le ma	1
+类	lei	3
+类库	lei ku	1
+类型	lei xing	5
+里	li	1
+李浩	li hao	0
+李浩冉	li hao ran	1
+李浩然	li hao ran	2
+离谱	li pu	1
+练	lian	1
+连	lian	1
+练车	lian che	0
+练车的	lian che de	1
+连接	lian jie	1
+链接	lian jie	1
+两	liang	0
+量	liang	1
+列表	lie biao	3
+林	lin	0
+林风儿	lin feng er	1
+林哥	lin ge	17
+林格	lin ge	1
+浏览器	liu lan qi	1
+喽	lou	1
+楼	lou	0
+论文	lun wen	2
+略	lve	0
+略缩图	lve suo tu	2
+吗	ma	2
+卖呆	mai dai	0
+没	mei	1
+没空	mei kong	0
+没空了	mei kong le	1
+没门	mei men	1
+没睡	mei shui	1
+没想到	mei xiang dao	1
+没有	mei you	1
+门	men	1
+梦	meng	0
+梦想	meng xiang	0
+面涂	mian tu	0
+描述	miao shu	2
+名	ming	2
+明年	ming nian	1
+明天	ming tian	0
+明天靠	ming tian kao	1
+名与利	ming yu li	1
+名字	ming zi	2
+模版	mo ban	1
+默认	mo ren	1
+模式	mo shi	1
+某地	mou di	1
+某一	mou yi	0
+某一部分	mou yi bu fen	1
+那	na	0
+那归宿	na gui su	1
+哪里	na li	1
+难受	nan shou	0
+呢	ne	1
+内幕	nei mu	1
+内容	nei rong	1
+内特	nei te	1
+能	neng	2
+你	ni	0
+昵称	ni cheng	1
+暱称	ni cheng	1
+你的	ni de	1
+你好啊	ni hao a	1
+你那边	ni na bian	1
+你也	ni ye	1
+年	nian	2
+农田	nong tian	4
+诺提	nuo ti	1
+哦	o	1
+怕需	pa xu	1
+排序	pai xu	3
+陪你	pei ni	1
+配置	pei zhi	4
+碰到	peng dao	1
+品	pin	1
+品牌	pin pai	3
+汽车	qi che	1
+骑车来	qi che lai	1
+启动	qi dong	3
+起飞	qi fei	4
+奇怪的	qi guai de	2
+七号	qi hao	1
+期间	qi jian	1
+起了	qi le	0
+其实	qi shi	1
+其实这话	qi shi zhe hua	1
+七天	qi tian	1
+起义	qi yi	1
+前端	qian duan	4
+签字	qian zi	1
+切换	qie huan	2
+清单	qing dan	2
+请求	qing qiu	1
+去	qu	2
+区别	qu bie	1
+去掉	qu diao	1
+去了	qu le	0
+去年	qu nian	1
+取消	qu xiao	1
+去学	qu xue	0
+去学习	qu xue xi	1
+趣学习	qu xue xi	1
+全部	quan bu	1
+全局	quan ju	2
+权限	quan xian	1
+确认	que ren	1
+冉	ran	1
+然而	ran er	1
+冉冉	ran ran	1
+认同	ren tong	1
+人要	ren yao	1
+认真	ren zhen	1
+认证	ren zheng	0
+日	ri	2
+日语	ri yu	1
+容易	rong yi	3
+入栈	ru zhan	1
+软件	ruan jian	3
+三级	san ji	0
+三级分类	san ji fen lei	1
+三月	san yue	0
+三战	san zhan	1
+涩	se	1
+涩涩	se se	1
+瑟瑟	se se	1
+啥	sha	0
+啥得了	sha de le	1
+啥都	sha dou	1
+啥时候	sha shi hou	1
+沙文	sha wen	0
+沙文团茶	sha wen tuan cha	1
+沙溪	sha xi	0
+啥系统	sha xi tong	1
+沙溪同	sha xi tong	1
+啥意思	sha yi si	1
+晒而	shai er	1
+删除	shan chu	4
+山东	shan dong	2
+上	shang	0
+上班	shang ban	1
+上传	shang chuan	2
+上次	shang ci	1
+上岗	shang gang	1
+商户	shang hu	1
+上架	shang jia	3
+商家	shang jia	1
+上加状态	shang jia zhuang tai	1
+商品	shang pin	38
+稍微	shao wei	1
+设计	she ji	2
+设置	she zhi	5
+身	shen	1
+深藏	shen cang	1
+审核	shen he	3
+什么	shen me	1
+神奇	shen qi	1
+神奇化肥	shen qi hua fei	1
+深色	shen se	1
+声场	sheng chang	1
+生成	sheng cheng	2
+省外	sheng wai	1
+剩余	sheng yu	0
+剩余两	sheng yu liang	1
+时	shi	1
+是	shi	2
+失败	shi bai	1
+史丹利	shi dan li	4
+是的	shi de	1
+是的是的是的	shi de shi de shi de	1
+是否	shi fou	1
+时候	shi hou	1
+时间	shi jian	0
+时刻	shi ke	1
+实例	shi li	1
+事情	shi qing	1
+是什么	shi shen me	1
+石笋	shi sun	1
+试图	shi tu	1
+是我	shi wo	1
+实现类	shi xian lei	1
+实验室	shi yan shi	1
+十一点	shi yi dian	1
+使用	shi yong	4
+实用的	shi yong de	1
+是脏	shi zang	1
+使之	shi zhi	0
+使之可以	shi zhi ke yi	1
+收藏	shou cang	1
+受到	shou dao	1
+售后	shou hou	2
+售卖	shou mai	2
+书	shu	1
+鼠标	shu biao	1
+数据	shu ju	1
+数据库	shu ju ku	3
+输入	shu ru	1
+输入法	shu ru fa	1
+叔叔	shu shu	1
+熟悉	shu xi	0
+熟悉一下	shu xi yi xia	1
+属性	shu xing	3
+书幸亏	shu xing kui	1
+数字	shu zi	1
+数组	shu zu	2
+双肩	shuang jian	1
+睡	shui	0
+顺便	shun bian	1
+搜索	sou suo	1
+速度	su du	1
+随机的	sui ji de	1
+缩放	suo fang	1
+缩图	suo tu	0
+他	ta	1
+它	ta	2
+泰安	tai an	1
+态度	tai du	1
+太慢	tai man	1
+太慢了	tai man le	1
+太舒服	tai shu fu	0
+太舒服了	tai shu fu le	1
+特此证明	te ci zheng ming	1
+特有	te you	3
+特有属性	te you shu xing	1
+腾讯	teng xun	1
+替换	ti huan	1
+提及	ti ji	1
+添加	tian jia	13
+听	ting	0
+挺	ting	1
+挺多	ting duo	1
+听难受	ting nan shou	1
+听难受的	ting nan shou de	1
+停下来	ting xia lai	1
+挺像	ting xiang	0
+挺像的	ting xiang de	1
+同	tong	0
+通过	tong guo	1
+统计	tong ji	1
+通信	tong xin	1
+同学	tong xue	1
+图	tu	3
+图片	tu pian	10
+秃瓢	tu piao	1
+图形	tu xing	2
+图形化	tu xing hua	1
+团茶	tuan cha	0
+退货	tui huo	1
+退役	tui yi	1
+拖动	tuo dong	1
+外观	wai guan	2
+弯道超车	wan dao chao che	1
+玩具盒	wan ju he	1
+完善	wan shan	1
+晚上	wan shang	1
+汪苏泷	wang su long	1
+网页	wang ye	1
+网页段	wang ye duan	1
+网易云	wang yi yun	3
+为何	wei he	1
+为啥	wei sha	0
+为啥呢	wei sha ne	1
+微信	wei xin	1
+问	wen	0
+文件	wen jian	4
+问就行	wen jiu xing	1
+问题	wen ti	3
+文章	wen zhang	7
+嗡嗡嗡	weng weng weng	1
+我	wo	3
+我不是	wo bu shi	1
+我飞起来楼	wo fei qi lai lou	1
+我感觉	wo gan jue	0
+我看	wo kan	1
+我呀	wo ya	1
+我也是	wo ye shi	1
+我在	wo zai	1
+我直接	wo zhi jie	1
+五	wu	0
+无	wu	1
+无理由	wu li you	1
+无所谓	wu suo wei	1
+呜呜	wu wu	2
+习	xi	2
+系统	xi tong	0
+下	xia	4
+下标	xia biao	1
+下表	xia biao	1
+下的	xia de	1
+下架	xia jia	1
+下雪	xia xue	1
+下载	xia zai	1
+现代	xian dai	2
+现在	xian zai	1
+限制	xian zhi	2
+想得	xiang de	0
+相关	xiang guan	3
+详情	xiang qing	3
+相应	xiang ying	1
+销量	xiao liang	1
+写	xie	2
+新的	xin de	1
+信息	xin xi	8
+星	xing	2
+行	xing	1
+幸亏	xing kui	0
+修改	xiu gai	7
+修工	xiu gong	1
+序号	xu hao	1
+需要	xu yao	1
+学	xue	4
+学部	xue bu	0
+学部回了	xue bu hui le	1
+学习	xue xi	0
+学习去了	xue xi qu le	1
+学校	xue xiao	1
+学院	xue yuan	1
+学中文	xue zhong wen	1
+呀	ya	0
+呀卖呆	ya mai dai	1
+压缩	ya suo	4
+压抑	ya yi	2
+要	yao	0
+要去	yao qu	1
+要准备	yao zhun bei	1
+也	ye	1
+也好	ye hao	1
+也要	ye yao	1
+一冲	yi chong	0
+移动	yi dong	1
+一段	yi duan	1
+一个	yi ge	6
+以及	yi ji	1
+已经	yi jing	7
+一年	yi nian	1
+疫情	yi qing	1
+意思	yi si	1
+一下	yi xia	0
+一想	yi xiang	0
+一行	yi xing	0
+一样	yi yang	1
+一战	yi zhan	2
+音乐	yin yue	2
+英文	ying wen	1
+用	yong	1
+用户	yong hu	2
+用什么	yong shen me	1
+用什么技术	yong shen me ji shu	1
+拥有	yong you	1
+有	you	1
+有梦想	you meng xiang	1
+优势	you shi	1
+有时候	you shi hou	3
+有问题	you wen ti	1
+优异	you yi	0
+御龙	yu long	1
+语言	yu yan	1
+月	yue	2
+云上	yun shang	3
+运上	yun shang	3
+云上农田	yun shang nong tian	2
+运行	yun xing	1
+运行时	yun xing shi	1
+在	zai	6
+在这里	zai zhe li	1
+糟糕	zao gao	1
+糟糕的	zao gao de	1
+贼唱	zei chang	1
+怎么	zen me	12
+怎么说	zen me shuo	1
+怎么样	zen me yang	1
+宅	zhai	1
+粘贴	zhan tie	1
+找	zhao	2
+这	zhe	2
+这个	zhe ge	1
+这个词	zhe ge ci	1
+这话	zhe hua	0
+这么	zhe me	2
+这是	zhe shi	1
+这是什么	zhe shi shen me	1
+这一	zhe yi	0
+这一梦	zhe yi meng	1
+真快	zhen kuai	1
+正常	zheng chang	2
+整个	zheng ge	0
+整个窗口	zheng ge chuang kou	1
+证明	zheng ming	2
+值	zhi	2
+支付	zhi fu	4
+支付宝	zhi fu bao	2
+支付订单	zhi fu ding dan	1
+支付接口	zhi fu jie kou	1
+直接	zhi jie	0
+指令	zhi ling	1
+只有	zhi you	2
+志愿	zhi yuan	1
+志愿服务	zhi yuan fu wu	1
+中	zhong	1
+中断	zhong duan	1
+中风	zhong feng	2
+重量	zhong liang	3
+中文	zhong wen	1
+注入	zhu ru	1
+注释	zhu shi	2
+主题	zhu ti	1
+注销	zhu xiao	1
+转	zhuan	1
+转换	zhuan huan	1
+专业	zhuan ye	1
+状态	zhuang tai	11
+准备	zhun bei	2
+桌面	zhuo mian	3
+兹	zi	1
+子	zi	0
+字段	zi duan	2
+子分类	zi fen lei	1
+字符	zi fu	1
+字符串	zi fu chuan	2
+自己	zi ji	1
+自学	zi xue	2
+总量	zong liang	1
+邹平	zou ping	1
+祖名	zu ming	0
+最喜欢	zui xi huan	1
+最小化	zui xiao hua	1
+左右	zuo you	1
+作者	zuo zhe	1
+左值	zuo zhi	1
