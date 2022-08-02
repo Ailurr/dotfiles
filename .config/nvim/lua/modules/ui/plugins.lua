@@ -7,11 +7,16 @@ ui["sainnhe/edge"] = { opt = false, config = conf.edge }
 ui["catppuccin/nvim"] = {
 	opt = false,
 	as = "catppuccin",
+	commit = "f079dda3dc23450d69b4bad11bfbd9af2c77f6f3",
 	config = conf.catppuccin,
+}
+ui["rcarriga/nvim-notify"] = {
+	opt = false,
+	config = conf.notify,
 }
 ui["hoob3rt/lualine.nvim"] = {
 	opt = true,
-	after = "lualine-lsp-progress",
+	after = "nvim-gps",
 	config = conf.lualine,
 }
 ui["SmiteshP/nvim-gps"] = {
@@ -19,8 +24,11 @@ ui["SmiteshP/nvim-gps"] = {
 	after = "nvim-treesitter",
 	config = conf.nvim_gps,
 }
-ui["arkav/lualine-lsp-progress"] = { opt = true, after = "nvim-gps" }
-ui["glepnir/dashboard-nvim"] = { opt = true, event = "BufWinEnter" }
+ui["goolord/alpha-nvim"] = {
+	opt = true,
+	event = "BufWinEnter",
+	config = conf.alpha,
+}
 ui["kyazdani42/nvim-tree.lua"] = {
 	opt = true,
 	cmd = { "NvimTreeToggle" },
@@ -28,35 +36,34 @@ ui["kyazdani42/nvim-tree.lua"] = {
 }
 ui["lewis6991/gitsigns.nvim"] = {
 	opt = true,
-	event = { "BufRead", "BufNewFile" },
+	event = { "BufReadPost", "BufNewFile" },
 	config = conf.gitsigns,
 	requires = { "nvim-lua/plenary.nvim", opt = true },
 }
 ui["lukas-reineke/indent-blankline.nvim"] = {
 	opt = true,
-	event = "BufRead",
+	event = "BufReadPost",
 	config = conf.indent_blankline,
 }
 ui["akinsho/bufferline.nvim"] = {
 	opt = true,
 	tag = "*",
-	event = "BufRead",
+	event = "BufReadPost",
 	config = conf.nvim_bufferline,
 }
-ui["petertriho/nvim-scrollbar"] = {
+ui["dstein64/nvim-scrollview"] = {
 	opt = true,
-	event = "BufRead",
-	config = function()
-		require("scrollbar").setup()
-	end,
-}
-ui["wfxr/minimap.vim"] = {
-	opt = true,
-	event = "BufRead",
+	event = { "BufReadPost" },
+	config = conf.scrollview,
 }
 ui["mbbill/undotree"] = {
 	opt = true,
 	cmd = "UndotreeToggle",
+}
+ui["j-hui/fidget.nvim"] = {
+	opt = true,
+	event = "BufReadPost",
+	config = conf.fidget,
 }
 
 return ui

@@ -72,6 +72,33 @@ function config.nvim_treesitter()
 	end
 end
 
+function config.illuminate()
+	vim.g.Illuminate_highlightUnderCursor = 0
+	vim.g.Illuminate_ftblacklist = {
+		"help",
+		"dashboard",
+		"alpha",
+		"packer",
+		"norg",
+		"DoomInfo",
+		"NvimTree",
+		"Outline",
+		"toggleterm",
+	}
+end
+
+function config.nvim_comment()
+	require("nvim_comment").setup({
+		hook = function()
+			require("ts_context_commentstring.internal").update_commentstring()
+		end,
+	})
+end
+
+function config.hop()
+	require("hop").setup({ keys = "etovxqpdygfblzhckisuran" })
+end
+
 function config.matchup()
 	vim.cmd([[let g:matchup_matchparen_offscreen = {'method': 'popup'}]])
 end
@@ -167,21 +194,23 @@ function config.dapui()
 			edit = "e",
 			repl = "r",
 		},
-		sidebar = {
-			elements = {
-				-- Provide as ID strings or tables with "id" and "size" keys
-				{
-					id = "scopes",
-					size = 0.25, -- Can be float or integer > 1
+		layouts = {
+			{
+				elements = {
+					-- Provide as ID strings or tables with "id" and "size" keys
+					{
+						id = "scopes",
+						size = 0.25, -- Can be float or integer > 1
+					},
+					{ id = "breakpoints", size = 0.25 },
+					{ id = "stacks", size = 0.25 },
+					{ id = "watches", size = 0.25 },
 				},
-				{ id = "breakpoints", size = 0.25 },
-				{ id = "stacks", size = 0.25 },
-				{ id = "watches", size = 00.25 },
+				size = 40,
+				position = "left",
 			},
-			size = 40,
-			position = "left",
+			{ elements = { "repl" }, size = 10, position = "bottom" },
 		},
-		tray = { elements = { "repl" }, size = 10, position = "bottom" },
 		floating = {
 			max_height = nil,
 			max_width = nil,
@@ -357,6 +386,36 @@ function config.tabout()
 			{ open = "{", close = "}" },
 		},
 		exclude = {},
+	})
+end
+
+function config.imselect()
+	-- fcitx5 need a manual config
+	if vim.fn.executable("fcitx5-remote") == 1 then
+		vim.cmd([[
+		let g:im_select_get_im_cmd = ["fcitx5-remote"]
+		let g:im_select_default = '1'
+		let g:ImSelectSetImCmd = {
+			\ key ->
+			\ key == 1 ? ['fcitx5-remote', '-c'] :
+			\ key == 2 ? ['fcitx5-remote', '-o'] :
+			\ key == 0 ? ['fcitx5-remote', '-c'] :
+			\ execute("throw 'invalid im key'")
+			\ }
+			]])
+	end
+end
+
+function config.better_escape()
+	require("better_escape").setup({
+		mapping = { "jk", "jj" }, -- a table with mappings to use
+		timeout = vim.o.timeoutlen, -- the time in which the keys must be hit in ms. Use option timeoutlen by default
+		clear_empty_lines = false, -- clear line after escaping if there is only whitespace
+		keys = "<Esc>", -- keys used for escaping, if it is a function will use the result everytime
+		-- example(recommended)
+		-- keys = function()
+		--   return vim.api.nvim_win_get_cursor(0)[2] > 1 and '<esc>l' or '<esc>'
+		-- end,
 	})
 end
 

@@ -1,7 +1,9 @@
 var:
-  last_build_time: 1650197214
+  last_build_time: 1658893952
   option:
-    ascii_punct: true
-  previously_selected_schema: clover
+    simplification: true
+  previously_selected_schema: double_pinyin_flypy
   schema_access_time:
-    clover: 1641122273
+    double_pinyin_flypy: 1658717824
+    luna_pinyin_simp: 1658717693
+    numbers: 1658717814
