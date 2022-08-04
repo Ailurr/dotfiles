@@ -47,9 +47,12 @@ setopt hist_verify            # show command with history expansion to user befo
 setopt share_history          # share command history data
 
 # source plugins
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+source ~/.oh-my-zsh/plugins/git/git.plugin.zsh
 source /usr/share/fzf/key-bindings.zsh
+source /usr/share/autojump/autojump.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#484E5B,underline"
 
@@ -77,7 +80,7 @@ alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias mirror-update='sudo reflector --verbose -c Indonesia -c Japan -c Singapore --sort rate --save /etc/pacman.d/mirrorlist'
 alias mtar='tar -zcvf' # mtar <archive_compress>
 alias utar='tar -zxvf' # utar <archive_decompress> <file_list>
-alias z='zip -r' # z <archive_compress> <file_list>
+#alias z='zip -r' # z <archive_compress> <file_list>
 alias uz='unzip' # uz <archive_decompress> -d <dir>
 alias sr='source ~/.zshrc'
 alias ..="cd .."
@@ -88,7 +91,7 @@ alias pacs="pacman -Slq | fzf -m --preview 'cat <(pacman -Si {1}) <(pacman -Fl {
 alias pars="paru -Slq | fzf -m --preview 'cat <(paru -Si {1}) <(paru -Fl {1} | awk \"{print \$2}\")' | xargs -ro  paru -S"
 alias pacr="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
 alias p="pacman -Q | fzf"
-alias wifi="nmtui-connect"
+alias ys="yay -Syu"
 alias ls="exa --color=auto --icons"
 alias l="ls -l"
 alias ll="ls -l"
@@ -102,7 +105,22 @@ alias mv='mv -v'
 alias cp='cp -vr'
 alias rm='rm -vr'
 
+alias ssh="kitty +kitten ssh"
+alias icat="kitty +kitten icat"
+
+#git alias
+alias gpl='git pull'
+alias gcm='git commit -m'
+alias gp='git push'
+alias gaa='git add .'
+alias ga='git add'
+
+#export DOCKER_HOST=unix:///var/run/docker.sock
+
+#init zoxide
+eval "$(zoxide init zsh)"
 # init starship
 eval "$(starship init zsh)"
 # setup starship custom prompt
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
+___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
